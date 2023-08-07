@@ -55,7 +55,7 @@ body {
 }
 
 .vertical-demon-box {
-  /* max-width: 10rem; */
+  max-width: 10rem;
   height: 50rem;
   display: flex;
   writing-mode: vertical-rl;
