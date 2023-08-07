@@ -1,0 +1,64 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #181818 !important;
+  color: white;
+}
+
+.navbar {
+  padding: 2rem !important;
+  display: flex;
+  align-items: center;
+  background-color: #0a0f12;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+}
+
+.navbar a {
+  margin-left: 1.5rem;
+  text-decoration: none;
+  color: white;
+}
+
+.navbar a:hover {
+  color: rgb(161, 249, 255);
+}
+
+.search-input {
+  margin-left: auto;
+  border-radius: 10px;
+  background-color: black;
+  border: 1px solid white;
+  padding: 1rem;
+  font-size: medium;
+  color: white;
+}
+
+.search-input:hover {
+  border-color: rgb(72, 72, 255);
+}
+
+.box {
+  height: 50rem;
+  width: 20px;
+  background-color: red;
+}
+
+.demons-box {
+  height: 50rem;
+}
+
+.demon-text {
+  transform: translate(-50px, -70px);
+}
+
+.vertical-demon-box {
+  /* max-width: 10rem; */
+  height: 50rem;
+  display: flex;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  color: white;
+}
